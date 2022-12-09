@@ -1,0 +1,1 @@
+var HighscoresTab = document.querySelector("#highscores-tab");
