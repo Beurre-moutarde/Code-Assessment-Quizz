@@ -23,3 +23,17 @@ header h2 {
     font-size: 110%;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 110px;
+}
+
+#quizz-header {
+    font-size: 170px;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+}
