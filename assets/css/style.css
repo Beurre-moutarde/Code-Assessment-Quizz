@@ -38,7 +38,7 @@ main {
     text-align: center;
 }
 
-#Prompt {
+#prompt {
     width: 80%;
     text-align: center;
 }
@@ -94,4 +94,30 @@ button[id="button-quiz"]:hover::before {
     #quizz-header {
         font-size: 130%;
     }
+}
+
+#questions-result {
+    text-align: left;
+    width: 80%;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top-width: 2px;
+    border-top-color: grey;
+    font-style: italic;
+}
+
+#quiz-saved-score {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+#quiz-tag-saved-score {
+    padding-right: 5px;
+    margin: 0px;
+}
+
+#button-quiz-saved-score {
+    margin-left: 5px;
 }
