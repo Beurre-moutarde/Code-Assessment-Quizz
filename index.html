@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Web APIs Quiz</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  </head>
-  
-  <body>
 
-    <header> <!--Highscores tab + Timer-->
-        <h2 id="highscores-tab">View Highscores</h2>
-        <h2><span>Time: </span><span id="time">0</span></h2>
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <main> <!--Start Button + Questions-->
-      <h1 id="quizz-header"> Coding Assessment</h1>
-      <p id="prompt">
-        Try to answer the following questions within the time limit. Each time you answer incorectly, a 15 seconds penalty will apply.
-      </p>
-      <button id="button-quiz"> Start Assessment</button>
-    </main>
+        <title>Web APIs Code Quiz</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
 
-    <script src="./assets/js/script.js"></script> <!--Javascript Linked-->
-  </body>
-</html>  
+    <body>
+        <header>
+            <h2 id="highscores-tab">View Highscores</h2>
+            <h2><span>Time: </span><span id="time">0</span></h2>
+        </header>
+
+        <main>
+            <h1 id="quiz-header">Web APIs Code Quiz</h1>
+            <p id="quiz-description">
+                Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 15 seconds.
+            </p>
+            <button id="quiz-button">Start Quiz</button>
+        </main>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
