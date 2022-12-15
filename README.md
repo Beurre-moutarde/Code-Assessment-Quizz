@@ -30,4 +30,5 @@ THEN I can save my initials and my score
 
 The following image shows the application functionality: 
 
+![Screen Shot 2022-12-15 at 10 04 02 pm (2)](https://user-images.githubusercontent.com/116129687/207843500-986331b5-22c7-47d3-9b31-fd4eb4d513e0.png)
 ## Licence, Review
